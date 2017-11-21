@@ -83,7 +83,7 @@ var EventHandlers = {
   },
   swipeMove: function (e) {
     if (!this.state.dragging) {
-      e.preventDefault();
+      //e.preventDefault();
       return;
     }
     if (this.state.scrolling) {
